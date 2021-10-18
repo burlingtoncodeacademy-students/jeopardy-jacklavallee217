@@ -4,9 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
   <title>Jeopardy</title>
 </head>
 <body>
-  <h1>Round One</h1>
+  <h1 id="title">Jeopardy</h1>
+  <div class="grid">
+    <div class="category" id="category1"><h1>Category 1</h1></div>
+    <div class="category" id="category2"><h1>Category 2</h1></div>
+    <div class="category" id="category3"><h1>Category 3</h1></div>
+    <div class="category" id="category4"><h1>Category 4</h1></div>
+    <div class="category" id="category5"><h1>Category 5</h1></div>
+    <div class="category" id="category6"><h1>Category 6</h1></div>
+    <a href="#lightbox"><div id="q1" class="q column1">$100</div></a>
+    <a href="#lightbox"><div id="q2" class="q column2">$100</div></a>
+    <a href="#lightbox"><div id="q3" class="q column3">$100</div></a>
+    <a href="#lightbox"><div id="q4" class="q column4">$100</div></a>
+    <a href="#lightbox"><div id="q5" class="q column5">$100</div></a>
+    <a href="#lightbox"><div id="q6" class="q column6">$100</div></a>
+    <a href="#lightbox"><div id="q7" class="q column1">$200</div></a>
+    <a href="#lightbox"><div id="q8" class="q column2">$200</div></a>
+    <a href="#lightbox"><div id="q9" class="q column3">$200</div></a>
+    <a href="#lightbox"><div id="q10" class="q column4">$200</div></a>
+    <a href="#lightbox"><div id="q11" class="q column5">$200</div></a>
+    <a href="#lightbox"><div id="q12" class="q column6">$200</div></a>
+    <a href="#lightbox"><div id="q13" class="q column1">$300</div></a>
+    <a href="#lightbox"><div id="q14" class="q column2">$300</div></a>
+    <a href="#lightbox"><div id="q15" class="q column3">$300</div></a>
+    <a href="#lightbox"><div id="q16" class="q column4">$300</div></a>
+    <a href="#lightbox"><div id="q17" class="q column5">$300</div></a>
+    <a href="#lightbox"><div id="q18" class="q column6">$300</div></a>
+    <a href="#lightbox"><div id="q19" class="q column1">$400</div></a>
+    <a href="#lightbox"><div id="q20" class="q column2">$400</div></a>
+    <a href="#lightbox"><div id="q21" class="q column3">$400</div></a>
+    <a href="#lightbox"><div id="q22" class="q column4">$400</div></a>
+    <a href="#lightbox"><div id="q23" class="q column5">$400</div></a>
+    <a href="#lightbox"><div id="q24" class="q column6">$400</div></a>
+    <a href="#lightbox"><div id="q25" class="q column1">$500</div></a>
+    <a href="#lightbox"><div id="q26" class="q column2">$500</div></a>
+    <a href="#lightbox"><div id="q27" class="q column3">$500</div></a>
+    <a href="#lightbox"><div id="q28" class="q column4">$500</div></a>
+    <a href="#lightbox"><div id="q29" class="q column5">$500</div></a>
+    <a href="#lightbox"><div id="q30" class="q column6">$500</div></a>
+  </div>
+  <div id="lightbox">
+    <section>
+      <h2>Topic</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <input type="text" name="answer" placeholder="Type your answer in the form of a question..."/>
+      <a href="#"><input type="button" value="Answer" name="answerButton"></a>
+    </section>
+  </div>
+  <footer>
+    <div id="filler"></div>
+    <div id="scoreboard">
+      <h3 id="player1" class="players">
+        Player One: 0
+      </h3>
+      <h3 id="player2" class="players">
+        Player Two: 0
+      </h3>
+    </div>
+    <a href="round-2.html"><h1>Double Jeopardy! -> </h1></a>
+  </footer>
 </body>
 </html>
