@@ -12,8 +12,8 @@
 </head>
 <body>
   <h1 id="title">Double Jeopardy</h1>
-  <div class="grid">
-    <div class="category" id="category1"><h1>Category 1</h1></div>
+  <div class="grid" id="grid2">
+    <!-- <div class="category" id="category1"><h1>Category 1</h1></div>
     <div class="category" id="category2"><h1>Category 2</h1></div>
     <div class="category" id="category3"><h1>Category 3</h1></div>
     <div class="category" id="category4"><h1>Category 4</h1></div>
@@ -48,14 +48,15 @@
     <a href="#lightbox"><div id="q27" class="q column3">$1000</div></a>
     <a href="#lightbox"><div id="q28" class="q column4">$1000</div></a>
     <a href="#lightbox"><div id="q29" class="q column5">$1000</div></a>
-    <a href="#lightbox"><div id="q30" class="q column6">$1000</div></a>
+    <a href="#lightbox"><div id="q30" class="q column6">$1000</div></a> -->
   </div>
   <div id="lightbox">
     <section>
       <h2>Topic</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p id="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <input type="text" name="answer" placeholder="Type your answer in the form of a question..."/>
       <a href="#"><input type="button" value="Answer" name="answerButton"></a>
+      <a href="#"><input type="button" value="Pass" name="passButton"></a>
     </section>
   </div>
   <footer>
@@ -71,4 +72,7 @@
     <a href="final-jeopardy.html"><h1>Double Jeopardy! -> </h1></a>
   </footer>
 </body>
+<script src="/scripts/elements.js"></script>
+<script src="/scripts/questions.js"></script>
+<script src="/scripts/round-2.js"></script>
 </html>

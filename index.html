@@ -12,11 +12,14 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-  <audio autoplay>
+  <!-- <audio autoplay>
     <source src="Jeopardy-theme-song.mp3" type="audio/mp3" >
-  </audio>
+  </audio> -->
   <h1 id="title">Jeopardy</h1>
-  <a href="round-1.html"><h1 id="banner">Click here to begin!</h1></a>
+  <div id="numberOfPlayerButtons">
+    <a href="round-1.html"><h1 id="banner">Click here to begin!</h1></a>
+    <a href="round-1.html"><h1 id="banner">Click here to begin!</h1></a>
+  </div>
   <div id="gridAnimation" class="grid">
     <div id="q1" class="q"></div>
     <div id="q2" class="q"></div>
@@ -56,4 +59,7 @@
     <div id="q36" class="q"></div>
   </div>
 </body>
+<script src="/scripts/elements.js"></script>
+<script src="/scripts/questions.js"></script>
+<script src="/scripts/index.js"></script>
 </html>

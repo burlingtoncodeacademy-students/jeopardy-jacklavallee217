@@ -35,19 +35,20 @@ body {
   animation-direction: alternate;
   animation-name: titleColor;
   animation-duration: 5s;
+  z-index: 5;
 }
 
 /* Grid characteristics for each page */
 .grid {
   position: absolute;
   display: grid;
+  grid-auto-flow: column;
   top: 55%;
   left: 50%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   transform: translate(-50%, -50%);
   justify-content: center;
-  height: 650px;
   width: 1100px;
   background-color: ivory;
   border-radius: 20px;
@@ -55,6 +56,7 @@ body {
 
 /* Just for animated grid */
 #gridAnimation {
+  height: 500px;
   grid-gap: 2em;
 }
 
@@ -81,7 +83,7 @@ a {
 }
 
 /* Categories for the grid */
-.category {
+.column {
   row-gap: 0;
   column-gap: 0;
   margin: 1em 0;
@@ -189,39 +191,42 @@ input[name="answerButton"], input[name="finalAnswerButton"] {
 }
 
 #lightbox section {
+  text-align: center;
   background-color: ivory;
   position: fixed;
+  min-width: 600px;
   top: 50%;
-  transform: translate(0%, -50%)
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 /* Each categories, columns color and styling */
-#category1 {
+#column1 {
   background-color: var(--color1);
   border: solid .5em var(--color1);
 }
 
-#category2 {
+#column2 {
   background-color: var(--color2);
   border: solid .5em var(--color2);
 }
 
-#category3 {
+#column3 {
   background-color: var(--color3);
   border: solid .5em var(--color3);
 }
 
-#category4 {
+#column4 {
   background-color: var(--color4);
   border: solid .5em var(--color4);
 }
 
-#category5 {
+#column5 {
   background-color: var(--color5);
   border: solid .5em var(--color5);
 }
 
-#category6 {
+#column6 {
   background-color: var(--color6);
   border: solid .5em var(--color6);
 }

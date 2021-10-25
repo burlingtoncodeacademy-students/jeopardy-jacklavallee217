@@ -1,0 +1,434 @@
+[
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital of Peru?",
+    "correct_answer": "Lima",
+    "incorrect_answers": ["Santiago", "Montevideo", "Buenos Aires"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What country is the second largest in the world by area?",
+    "correct_answer": "Canada",
+    "incorrect_answers": ["Russia", "China", "United States of America"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The Principality of Sealand is an unrecognized micronation off the coast of what country?",
+    "correct_answer": "The United Kingdom",
+    "incorrect_answers": ["Japan", "Austrailia", "Argentina"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "How many sovereign states are members of the United Nations?",
+    "correct_answer": "195",
+    "incorrect_answers": ["201", "153", "178"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "How many countries are inside the United Kingdom?",
+    "correct_answer": "Four",
+    "incorrect_answers": ["Two", "Three", "One"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The flag of South Africa features 7 colours.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "How many counties in the Republic of Ireland.",
+    "correct_answer": "26",
+    "incorrect_answers": ["32", "28", "30"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "The Republic of Malta is the smallest microstate worldwide.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "There are no roads in/out of Juneau, Alaska.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What colour is the circle on the Japanese flag?",
+    "correct_answer": "Red",
+    "incorrect_answers": ["White", "Yellow", "Black"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The following Spanish provinces are located in the northern area of Spain except:",
+    "correct_answer": "Murcia",
+    "incorrect_answers": ["Asturias", "Navarre", "Le&oacute;n"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The land of Gotland is located in which European country?",
+    "correct_answer": "Sweden",
+    "incorrect_answers": ["Denmark", "Norway", "Germany"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the 15th letter of the Greek alphabet?",
+    "correct_answer": "Omicron (&Omicron;)",
+    "incorrect_answers": ["Sigma (&Sigma;)", "Pi (&Pi;)", "Nu (&Nu;)"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following languages does NOT use the Latin alphabet?",
+    "correct_answer": "Georgian",
+    "incorrect_answers": ["Turkish", "Swahili", "Vietnamese"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The Japanese district Akihabara is also known by what nickname?",
+    "correct_answer": "Electric Town",
+    "incorrect_answers": ["Moon Walk River", "Otaku Central ", "Big Eyes"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The World Health Organization headquarters is located in which European country?",
+    "correct_answer": "Switzerland",
+    "incorrect_answers": ["United Kingdom", "France", "Belgium"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+    "correct_answer": "Constantinople",
+    "incorrect_answers": [
+      "H&uuml;davendigar",
+      "S&ouml;\u011f&uuml;t",
+      "Adrianople"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many time zones does China have?",
+    "correct_answer": "1",
+    "incorrect_answers": ["3", "4", "2"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "How many countries does Spain have a land border with?",
+    "correct_answer": "5",
+    "incorrect_answers": ["2", "3", "4"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "&quot;Mongolia&quot; was a part of the now non-existent U.S.S.R.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the Capital of the United States?",
+    "correct_answer": "Washington, D.C.",
+    "incorrect_answers": ["Los Angelas, CA", "New York City, NY", "Houston, TX"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+    "correct_answer": "Rosemead, California",
+    "incorrect_answers": [
+      "Sacramento, California",
+      "Fresno, California",
+      "San Diego, California"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+    "correct_answer": "Equatorial Guinea",
+    "incorrect_answers": ["Guinea", "Cameroon", "Angola"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the area of Vatican City?",
+    "correct_answer": "0.44km^2",
+    "incorrect_answers": ["0.10km^2", "0.86km^2", "12.00km^2"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The Sonoran Desert is located in eastern Africa.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Antarctica is the largest desert in the world.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "You could walk from Norway to North Korea while only passing through Russia.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the official language of Bhutan?",
+    "correct_answer": "Dzongkha",
+    "incorrect_answers": ["Ladakhi", "Karen", "Groma"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the name of the peninsula containing Spain and Portugal?",
+    "correct_answer": "Iberian Peninsula",
+    "incorrect_answers": [
+      "European Peninsula",
+      "Peloponnesian Peninsula",
+      "Scandinavian Peninsula"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the official German name of the Swiss Federal Railways?",
+    "correct_answer": "Schweizerische Bundesbahnen",
+    "incorrect_answers": [
+      "Schweizerische Nationalbahnen",
+      "Bundesbahnen der Schweiz",
+      "Schweizerische Staatsbahnen"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Harvard University is located in which city?",
+    "correct_answer": "Cambridge",
+    "incorrect_answers": ["Providence", "New York", "Washington D.C."]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital of Slovakia?",
+    "correct_answer": "Bratislava",
+    "incorrect_answers": ["Sofia", "Ljubljana", "Sarajevo"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the Finnish word for &quot;Finland&quot;?",
+    "correct_answer": "Suomi",
+    "incorrect_answers": ["Eesti", "Magyarorsz&aacute;g", "Sverige"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What North American tourist attraction is served by the &quot;Maid of the Mist&quot; tour company?",
+    "correct_answer": "Niagara Falls",
+    "incorrect_answers": [
+      "Whistler, British Columbia",
+      "Disney World",
+      "Yosemite National Park"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    "correct_answer": "Grand Banks",
+    "incorrect_answers": ["Great Barrier Reef", "Mariana Trench", "Hudson Bay"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What&#039;s the first National Park designated in the United States?",
+    "correct_answer": "Yellowstone",
+    "incorrect_answers": ["Sequoia ", "Yosemite", "Rocky Mountain"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital city of New Zealand?",
+    "correct_answer": "Wellington",
+    "incorrect_answers": ["Auckland", "Christchurch", "Melbourne"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Colchester Overpass, otherwise known as &quot;Bunny Man Bridge&quot;, is located where?",
+    "correct_answer": "Fairfax County, Virginia",
+    "incorrect_answers": [
+      "Medford, Oregon",
+      "Braxton County, Virgina",
+      "Lemon Grove, California"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital city of Slovenia?",
+    "correct_answer": "Ljubljana",
+    "incorrect_answers": ["Maribor", "Velenje", "Trbovlje"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the capital of Scotland?",
+    "correct_answer": "Edinburgh",
+    "incorrect_answers": ["Glasgow", "Dundee", "London"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which country was NOT part of the Soviet Union?",
+    "correct_answer": "Romania",
+    "incorrect_answers": ["Turkmenistan", "Belarus", "Tajikistan"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+    "correct_answer": "Crown",
+    "incorrect_answers": ["Bird", "Sickle", "Tree"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Bridgetown is the capital of which island country in the Carribean?",
+    "correct_answer": "Barbados",
+    "incorrect_answers": ["Cuba", "Jamaica&lrm;", "Dominica"]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "There is an island in Japan called \u014ckunoshima, A.K.A. &quot;Rabbit Island&quot;, so named because of it&#039;s huge population of rabbits.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What national museum will you find in Cooperstown, New York?",
+    "correct_answer": "National Baseball Hall of Fame",
+    "incorrect_answers": [
+      "Metropolitan Museum of Art",
+      "National Toy Hall of Fame",
+      "Museum of Modern Art"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital of Greenland?",
+    "correct_answer": "Nuuk",
+    "incorrect_answers": ["Sisimiut", "Narsaq", "Maniitsoq"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which country is the Taedong River in?",
+    "correct_answer": "North Korea",
+    "incorrect_answers": ["South Korea", "Japan", "China"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these countries is not a United Nations member state?",
+    "correct_answer": "Niue",
+    "incorrect_answers": ["Tuvalu", "South Sudan", "Montenegro"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country claims ownership of the disputed state Kosovo?",
+    "correct_answer": "Serbia",
+    "incorrect_answers": ["Croatia", "Albania", "Macedonia"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
+    "correct_answer": "Zambia &amp; Zimbabwe",
+    "incorrect_answers": [
+      "Togo &amp; Benin",
+      "Lesotho &amp; Swaziland",
+      "Rwanda &amp; Burundi"
+    ]
+  }
+]
