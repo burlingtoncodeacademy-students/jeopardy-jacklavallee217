@@ -8,7 +8,7 @@ let grid2 = document.getElementById("grid2");
 let titleHeader = document.getElementById("title");
 
 /* LightBox */
-let lightBox = document.getElementById("lightbox")
+let lightBox = document.getElementById("lightbox");
 
 /* LightBox question prompt */
 let questionText = document.getElementById("questionText");
@@ -22,7 +22,7 @@ let answerButton = document.getElementById("answerButton");
 /* LightBox pass button */
 let passButton = document.getElementById("passButton");
 
-/* Start game H1 */ 
+/* Start game H1 */
 let startGame = document.getElementById("startGame");
 
 /* Player one mode button*/

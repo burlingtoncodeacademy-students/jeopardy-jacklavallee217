@@ -1,3 +1,6 @@
+let j = 1;
+let indexes = [];
+
 // Determines the mode of the game
 var onePlayer;
 
@@ -28,7 +31,7 @@ if (gameMode === "oneplayer") {
 if (gameMode === "twoplayer") {
   onePlayer = false;
 }
-// Adjusts score based on player's answer, oscillating from player one to player two based on turn 
+// Adjusts score based on player's answer, oscillating from player one to player two based on turn
 answerButton.addEventListener("click", function () {
   if (
     answerInput.value.toUpperCase() === currentQuestion.answer.toUpperCase()
@@ -77,7 +80,7 @@ answerButton.addEventListener("click", function () {
   answerInput.value = "";
 });
 
-// Player relinquishes turn 
+// Player relinquishes turn
 passButton.addEventListener("click", function () {
   lightBox.style.display = "none";
   answerInput.value = "";
@@ -106,34 +109,36 @@ jsonPaths1.forEach((element) => {
         let randomNum = Math.floor(Math.random() * jsonQuestions.length);
         qIndex = jsonQuestions[randomNum];
         questionObj.question = qIndex.question;
-        while (questionObj.question.includes("&quot;")) {
-          questionObj.question = questionObj.question.replace("&quot;", "'");
-        }
-        while (questionObj.question.includes("&#039;")) {
-          questionObj.question = questionObj.question.replace("&#039;", "'");
-        }
-        while (questionObj.question.includes("&ldquo;")) {
-          questionObj.question = questionObj.question.replace("&ldquo;", "'");
+        if (!indexes.includes(randomNum)) {
+          while (questionObj.question.includes("&quot;")) {
+            questionObj.question = questionObj.question.replace("&quot;", "'");
+          }
+          while (questionObj.question.includes("&#039;")) {
+            questionObj.question = questionObj.question.replace("&#039;", "'");
+          }
+          while (questionObj.question.includes("&ldquo;")) {
+            questionObj.question = questionObj.question.replace("&ldquo;", "'");
+          }
+
+          questionObj.answer = qIndex.correct_answer;
+          while (questionObj.answer.includes("&quot;")) {
+            questionObj.answer = questionObj.answer.replace("&quot;", "'");
+          }
+          while (questionObj.answer.includes("&#039;")) {
+            questionObj.answer = questionObj.answer.replace("&#039;", "'");
+          }
+          while (questionObj.answer.includes("&ldquo;")) {
+            questionObj.answer = questionObj.answer.replace("&ldquo;", "'");
+          }
+
+          questionObj.category = qIndex.category;
+          questionObj.points = i * 200;
+          questionObj.column = "q column" + j;
         }
 
-        questionObj.answer = qIndex.correct_answer;
-        while (questionObj.answer.includes("&quot;")) {
-          questionObj.answer = questionObj.answer.replace("&quot;", "'");
-        }
-        while (questionObj.answer.includes("&#039;")) {
-          questionObj.answer = questionObj.answer.replace("&#039;", "'");
-        }
-        while (questionObj.answer.includes("&ldquo;")) {
-          questionObj.answer = questionObj.answer.replace("&ldquo;", "'");
-        }
-
-        questionObj.category = qIndex.category;
-        questionObj.points = i * 200;
-        questionObj.column = "q column" + j;
+        //console.log(questionObj);
+        category_qs.push(questionObj);
       }
-
-      //console.log(questionObj);
-      category_qs.push(questionObj);
       fillColumn(
         grid2,
         category_qs[0].column.slice(2),
