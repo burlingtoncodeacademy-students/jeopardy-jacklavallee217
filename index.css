@@ -6,12 +6,13 @@
 }
 
 /* 'Click here to begin' stylings */
-#banner {
+.banner {
     display: inline-block;
     color: ivory;
     padding: 1.5em;
     width: 30vw;
     box-shadow: 6px 0px #cccccc;
+    border: none;
     text-align: center;
     transform: translate(-50%, -50%);
     transition-timing-function: ease-in;
@@ -22,6 +23,33 @@
     animation-duration: 5s;
     border-radius: 20px;
     z-index: 2;
+  }
+
+  #startGame {
+    display: none;
+    position: absolute;
+    color: ivory;
+    padding: 1.5em;
+    width: 30vw;
+    box-shadow: 6px 0px #cccccc;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: bannerColor;
+    animation-duration: 5s;
+    border-radius: 20px;
+    z-index: 2;
+  }
+
+  #onePlayer, #twoPlayer {
+    font-size: 1.5em;
+    cursor: pointer;
   }
 
   /* Each questions individual animations characteristics */

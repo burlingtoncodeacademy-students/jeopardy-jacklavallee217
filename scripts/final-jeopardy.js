@@ -1,3 +1,4 @@
+// Fills question elements for final jeopardy Json file, also formats ASCII codes into readable strings
 fetch(finalJeopardyPath)
   .then(function (response) {
     return response.json();
