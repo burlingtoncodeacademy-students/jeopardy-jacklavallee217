@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
   <title>Final Jeopardy</title>
 </head>
 <body>
-  <h1>Final Jeopardy</h1>
+  <!-- Header of page -->
+  <h1 id="title">Final Jeopardy</h1>
+  <section id="main-container">
+    <!-- Category of final jeopardy question -->
+    <h2 id="finalJeopardyCategory">Topic</h2>
+    <!-- Final Jeopardy question -->
+    <p id="finalJeopardyQuestion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- Bet amount from contestant -->
+    <div id="finalBetDiv"><label>$</label><input type="number" name="finalBet" placeholder="Place your bet..."></div>
+    <!-- Answer input -->
+    <input type="text" name="finalAnswer" placeholder="Type your answer in the form of a question..."/>
+    <!-- Answer submission button -->
+    <input type="button" value="Answer" name="finalAnswerButton">
+  </section>
 </body>
+<script src="/scripts/elements.js"></script>
+<script src="/scripts/questions.js"></script>
+<script src="/scripts/final-jeopardy.js"></script>
 </html>

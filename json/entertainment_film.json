@@ -1,0 +1,462 @@
+[
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+    "correct_answer": "Harry Potter",
+    "incorrect_answers": ["Ted", "Spy Kids", "Pirates of the Caribbean "]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which was the first of Alfred Hitchcock&#039;s movies to be filmed in colour?",
+    "correct_answer": "Rope",
+    "incorrect_answers": ["Psycho", "Vertigo", "Rebecca"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In the movie &ldquo;The Iron Giant,&rdquo; this character is the protagonist.",
+    "correct_answer": "Hogarth Hughes",
+    "incorrect_answers": ["Kent Mansley", "Dean McCoppin", "Annie Hughes"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
+    "correct_answer": "Steven Spielberg",
+    "incorrect_answers": ["Stanley Kubrick", "James Cameron", "Tim Burton"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "When was the movie &#039;Con Air&#039; released?",
+    "correct_answer": "1997",
+    "incorrect_answers": ["1985", "1999", "1990"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the film &quot;Interstellar&quot;, how long did they spend on Miller&#039;s planet?",
+    "correct_answer": "23 years, 4 months, and 8 days",
+    "incorrect_answers": [
+      "15 years, 2 months, and 15 days",
+      "10 months and 6 days",
+      "26 years, 4 months, and 10 days"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who wrote and directed the 1986 film &#039;Platoon&#039;?",
+    "correct_answer": "Oliver Stone",
+    "incorrect_answers": [
+      "Francis Ford Coppola",
+      "Stanley Kubrick",
+      "Michael Cimino"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Velma Kelly and Roxie Hart are the protagonists of which Oscar winning movie?",
+    "correct_answer": "Chicago",
+    "incorrect_answers": ["Dreamgirls", "Cabaret", "All That Jazz"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the name of the robot in the 1951 science fiction film classic &#039;The Day the Earth Stood Still&#039;?",
+    "correct_answer": "Gort",
+    "incorrect_answers": ["Robby", "Colossus", "Box"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the name of the first &quot;Star Wars&quot; film by release order?",
+    "correct_answer": "A New Hope",
+    "incorrect_answers": [
+      "The Phantom Menace",
+      "The Force Awakens",
+      "Revenge of the Sith"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What was the first James Bond film?",
+    "correct_answer": "Dr. No",
+    "incorrect_answers": ["Goldfinger", "From Russia With Love", "Thunderball"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The Xenomorph from the science fiction film &quot;Alien&quot; has acidic blood.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who plays Alice in the Resident Evil movies?",
+    "correct_answer": "Milla Jovovich",
+    "incorrect_answers": ["Madison Derpe", "Milla Johnson", "Kim Demp"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Shaquille O&#039;Neal appeared in the 1997 film &quot;Space Jam&quot;.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+    "correct_answer": "Peter Cushing",
+    "incorrect_answers": ["Boris Karloff", "Vincent Price", "Lon Chaney Jr."]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which one of these films are shot entirely in one-take?",
+    "correct_answer": "Russian Ark",
+    "incorrect_answers": [
+      "Good Will Hunting",
+      "Birdman",
+      "Schindler&#039;s List"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Ewan McGregor did not know the name of the second prequel film of Star Wars during and after filming.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which movie of film director Stanley Kubrick is known to be an adaptation of a Stephen King novel?",
+    "correct_answer": "The Shining",
+    "incorrect_answers": [
+      "2001: A Space Odyssey",
+      " Dr. Strangelove ",
+      "Eyes Wide Shut"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+    "correct_answer": "Romani Ite Domum",
+    "incorrect_answers": [
+      "Romans Go Home",
+      "Roxani Ite Domum",
+      "Tomate Ite Domum"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who in Pulp Fiction says &quot;No, they got the metric system there, they wouldn&#039;t know what the fuck a Quarter Pounder is.&quot;",
+    "correct_answer": "Vincent Vega",
+    "incorrect_answers": ["Jules Winnfield", "Jimmie Dimmick", "Butch Coolidge"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+    "correct_answer": "Billy Loomis and Stu Macher",
+    "incorrect_answers": [
+      "Dewey Riley",
+      "Sidney Prescott",
+      "Archie Prescott and Philip Marv"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+    "correct_answer": "Ewan McGregor",
+    "incorrect_answers": ["Alec Guinness", "Hayden Christensen", "Liam Neeson"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+    "correct_answer": "United Kingdom",
+    "incorrect_answers": ["France", "Italy", "Germany"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+    "correct_answer": "Air",
+    "incorrect_answers": ["The Schwartz", "Princess Lonestar", "Meatballs"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "In the movie The Revenant, DiCaprio&#039;s character hunts down the killer of his son.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Joan Cusack starred in the 2009 disaster movie, &quot;2012&quot;.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What was the name of the protagonist in the movie Commando (1985)?",
+    "correct_answer": "John Matrix",
+    "incorrect_answers": ["Ben Richards", "Douglas Quaid", "Harry Tasker"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+    "correct_answer": "Jonathan Demme",
+    "incorrect_answers": ["Stanley Kubrick", "Frank Darabont", "Michael Bay"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In &quot;Star Trek Nemesis&quot;, why was Praetor Shinzon created?",
+    "correct_answer": "To replace Picard as a Romulan Agent",
+    "incorrect_answers": [
+      "To destroy the Enterprise",
+      "To become Picard&#039;s friend ",
+      "To steal the Enterprise"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In what year did Clint Eastwood star as Inspector Harry Callahan in the film &quot;Dirty Harry&quot;?",
+    "correct_answer": "1971",
+    "incorrect_answers": ["1975", "1983", "1969"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the &quot;Jurassic Park&quot; universe, what was the first dinosaur cloned by InGen in 1986?",
+    "correct_answer": "Velociraptor",
+    "incorrect_answers": ["Triceratops", "Troodon", "Brachiosaurus"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What three movies, in order from release date, make up the &quot;Dollars Trilogy&quot;?",
+    "correct_answer": "&quot;A Fistful of Dollars&quot;, &quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;",
+    "incorrect_answers": [
+      "&quot;The Good, the Bad, and the Ugly&quot;, &quot;For A Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;",
+      "&quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;, &quot;A Fistful of Dollars&quot;",
+      "&quot;For a Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;, &quot;The Good, the Bad, and the Ugly&quot;"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which actors made up the trio in &quot;The Good, the Bad, and the Ugly&quot;? ",
+    "correct_answer": "Clint Eastwood, Eli Wallach, and Lee Van Cleef",
+    "incorrect_answers": [
+      "Sergio Leone, Ennio Morricone, and Tonino Delli Colli",
+      "Yul Brynner, Steve McQueen, and Charles Bronson",
+      "Aldo Giuffr&egrave;, Mario Brega, and Luigi Pistilli"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What was Bruce Campbell&#039;s iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+    "correct_answer": "Groovy.",
+    "incorrect_answers": ["Gnarly.", "Perfect.", "Nice."]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?",
+    "correct_answer": "Yautja",
+    "incorrect_answers": ["Xenomorph", "Praetorian", "Phocrex"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In Finding Nemo, what was the name of Nemo&#039;s mom?",
+    "correct_answer": "Coral",
+    "incorrect_answers": ["Sandy", "Pearl", "Shelly"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "&quot;Foodfight!&quot; earned less than $80,000 at box office.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which 90&#039;s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?",
+    "correct_answer": "Wayne&#039;s World",
+    "incorrect_answers": [
+      "Bill &amp; Ted&#039;s Excellent Adventure",
+      "Dumb and Dumber",
+      "Austin Powers: International Man of Mystery"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Ed Koch, the Mayor of New York in 1984, played himself in which Muppets movie?",
+    "correct_answer": "The Muppets Take Manhattan",
+    "incorrect_answers": [
+      "The Great Muppet Caper",
+      "The Muppet Christmas Carol",
+      "The Muppet Movie"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Brendan Fraser starred in the following movies, except which one?",
+    "correct_answer": "Titanic",
+    "incorrect_answers": ["Monkeybone", "Encino Man", "Mrs. Winterbourne"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In the 2014 film &quot;Birdman&quot;, what is the primary instrument in the score?",
+    "correct_answer": "Drums",
+    "incorrect_answers": ["Saxophone", "Violin", "Actual Live Birds Singing"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which Marvel superhero did Chris Evans play prior to his role as Captain America?",
+    "correct_answer": "Human Torch",
+    "incorrect_answers": ["Cyclops", "Iceman", "Daredevil"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+    "correct_answer": "John Travolta",
+    "incorrect_answers": [
+      "Christoph Waltz",
+      "Harvey Keitel",
+      "Samuel L. Jackson"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What historical time period was the center of the Assassin&rsquo;s Creed movie (2016)?",
+    "correct_answer": "Spanish Inquisition",
+    "incorrect_answers": [
+      "Victorian England",
+      "French Revolution",
+      "Colonial America"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+    "correct_answer": "Steve Buscemi",
+    "incorrect_answers": ["Kevin Spacey", "Benicio Del Toro", "Gabriel Byrne"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What was the wifi password given to Stephen Strange in Doctor Strange?",
+    "correct_answer": "Shambala",
+    "incorrect_answers": ["Peace", "Ancient", "Chakra"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the birth name of Michael Caine?",
+    "correct_answer": "Maurice Micklewhite",
+    "incorrect_answers": ["Morris Coleman", "Carl Myers", "Martin Michaels"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the birth name of Michael Keaton?",
+    "correct_answer": "Michael Douglas",
+    "incorrect_answers": ["Michael Fox", "Michael Richards", "Michael Kane"]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What were the Chilled Monkey Brains made from during Indiana Jones and the Temple of Doom?",
+    "correct_answer": "Custard and Raspberry Sauce",
+    "incorrect_answers": [
+      "Strawberry Ice Cream",
+      "Cherry Yogurt",
+      "Raspberry Sorbet"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of these films is NOT set in Los Angeles?",
+    "correct_answer": "RoboCop",
+    "incorrect_answers": ["Blade Runner", "The Terminator", "Predator 2"]
+  }
+]

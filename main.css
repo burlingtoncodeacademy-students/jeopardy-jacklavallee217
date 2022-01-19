@@ -1,0 +1,283 @@
+/* Color References*/
+:root {
+  --color1: hsl(13, 100%, 69%);
+  --color2: hsl(33, 92%, 62%);
+  --color3: hsl(56, 68%, 72%);
+  --color4: hsl(124, 45%, 65%);
+  --color5: hsl(177, 69%, 55%);
+  --color6: hsl(178, 100%, 50%);
+}
+
+/* Font used for entirety of site */
+* {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Gets rid of page scroll stretchiness */
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: ivory;
+  overflow: hidden;
+}
+
+/* Main header for each page */
+#title {
+  font-size: 5em;
+  margin: 0 auto;
+  text-shadow: 3px 0px #cccccc;
+  text-align: center;
+  text-decoration: underline;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: titleColor;
+  animation-duration: 5s;
+  z-index: 5;
+}
+
+/* Grid characteristics for each page */
+.grid {
+  position: absolute;
+  display: grid;
+  grid-auto-flow: column;
+  top: 55%;
+  left: 50%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  width: 1100px;
+  background-color: ivory;
+  border-radius: 20px;
+}
+
+/* Just for animated grid */
+#gridAnimation {
+  height: 500px;
+  grid-gap: 2em;
+}
+
+/* Styles for each question */
+.q {
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin: .25em;
+  border-radius: 20px;
+  color: ivory;
+  text-align: center;
+  font-size: 2em;
+  line-height: 60px;
+  box-shadow: 6px 0px #cccccc;
+}
+
+/* Gets rid of inherit link stylings */
+a {
+  text-decoration: none;
+  color: black;
+  height: 70px;
+}
+
+/* Categories for the grid */
+.column {
+  row-gap: 0;
+  column-gap: 0;
+  margin: 1em 0;
+  color: ivory;
+}
+
+#main-container {
+  width: 60%;
+  margin: 4em auto;
+}
+
+#main-container h2 {
+  text-align: center;
+}
+
+/* footer for each page */
+footer {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  bottom: 0;
+  text-align: right;
+}
+
+#scoreboard {
+  flex: 1;
+}
+
+/* Footer flex filler */
+#filler {
+  flex: 1;
+}
+
+#scoreboard {
+  text-align: center;
+}
+
+/* Puts scores next to eachother */
+.players {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  margin: 0 1em;
+}
+
+footer h1 {
+  text-decoration: underline;
+}
+
+footer a {
+  flex: 1;
+}
+
+/* Answer stylings */
+input, #finalBetDiv {
+  display: block;
+  margin: 1.5em auto;
+  padding: 6px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+}
+
+input[name="finalBet"] {
+  margin: auto 4px;
+  display: inline-block;
+  width: 30%;
+}
+
+input[name="answer"], input[name="finalAnswer"] {
+  width: 70%;
+}
+
+input[name="answerButton"], input[name="finalAnswerButton"] {
+  padding: 1em 2em;
+}
+
+/* Pop up answer stylings */
+#lightbox {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  z-index: 5;
+  top: 0%;
+  left: 0;
+}
+
+#lightbox h2 {
+  text-align: center;
+}
+
+#lightbox p {
+  width: 60%;
+  margin: auto;
+}
+
+/* Once q is clicked lightbox will appear */
+#lightbox:target {
+  display: block;
+}
+
+#lightbox section {
+  text-align: center;
+  background-color: ivory;
+  position: fixed;
+  min-width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* Each categories, columns color and styling */
+#column1 {
+  background-color: var(--color1);
+  border: solid .5em var(--color1);
+}
+
+#column2 {
+  background-color: var(--color2);
+  border: solid .5em var(--color2);
+}
+
+#column3 {
+  background-color: var(--color3);
+  border: solid .5em var(--color3);
+}
+
+#column4 {
+  background-color: var(--color4);
+  border: solid .5em var(--color4);
+}
+
+#column5 {
+  background-color: var(--color5);
+  border: solid .5em var(--color5);
+}
+
+#column6 {
+  background-color: var(--color6);
+  border: solid .5em var(--color6);
+}
+
+.column1 {
+  background-color: var(--color1);
+}
+
+.column2 {
+  background-color: var(--color2);
+}
+
+.column3 {
+  background-color: var(--color3);
+}
+
+.column4 {
+  background-color: var(--color4);
+}
+
+.column5 {
+  background-color: var(--color5);
+}
+
+.column6 {
+  background-color: var(--color6);
+}
+
+/* Animation for the title */
+@keyframes titleColor {
+  0% {
+    color: var(--color1);
+  }
+
+  20% {
+    color: var(--color2);
+  }
+
+  40% {
+    color: var(--color3);
+  }
+
+  60% {
+    color: var(--color4);
+  }
+
+  80% {
+    color: var(--color5);
+  }
+
+  100% {
+    color: var(--color6);
+  }
+}

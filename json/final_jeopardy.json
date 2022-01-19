@@ -1,0 +1,94 @@
+[
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+    "correct_answer": "Irish Republican Army",
+    "incorrect_answers": [
+      "Irish Rebel Alliance",
+      "Irish Reformation Army",
+      "Irish-Royal Alliance"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these weapons is NOT available to the Terrorist team in the game, &quot;Counter-Strike: Global Offensive&quot;?",
+    "correct_answer": "SCAR-20",
+    "incorrect_answers": ["SG 550", "CZ-75", "XM1014"]
+  },
+  {
+    "category": "Entertainment: Cartoon & Animations",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What was the first Disney movie to use CGI?",
+    "correct_answer": "The Black Cauldron",
+    "incorrect_answers": ["Tron", "Toy Story", "Fantasia"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Where and when was the first cardboard box made for industrial use?",
+    "correct_answer": "England, 1817",
+    "incorrect_answers": [
+      "United States, 1817",
+      "England, 1917",
+      "United States, 1917"
+    ]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which computer language would you associate Django framework with?",
+    "correct_answer": "Python",
+    "incorrect_answers": ["C#", "C++", "Java"]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Psychology is the science of behavior and mind.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In which game did the character &quot;Mario&quot; make his first appearance?",
+    "correct_answer": "Donkey Kong",
+    "incorrect_answers": [
+      "Super Mario Bros.",
+      "Super Mario Land",
+      "Mario Bros."
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Musical artist, Future, collaborated with Kendrick Lamar for the song: &quot;Mask Off&quot;.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "Entertainment: Books",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In which classic novel is there a character named Homer Simpson?",
+    "correct_answer": "The Day of the Locust",
+    "incorrect_answers": ["Catch-22", "Of Mice and Men", "A Separate Peace"]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Where are Terror Fiends more commonly found in the Nintendo game Miitopia?",
+    "correct_answer": "New Lumos",
+    "incorrect_answers": ["Peculia", "The Sky Scraper", "Otherworld"]
+  }
+]

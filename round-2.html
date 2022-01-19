@@ -4,9 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
   <title>Jeopardy</title>
 </head>
 <body>
-  <h1>Double Jeopardy</h1>
+  <!-- Title of round 2 -->
+  <h1 id="title">Jeopardy</h1>
+  <!-- Grid filled dynamically -->
+  <div class="grid" id="grid2">
+  </div>
+  <!-- Question Lightbox, used to prompt user and get their response -->
+  <div id="lightbox">
+    <section>
+      <h2>Topic</h2>
+      <p id="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <input id="answerInput" type="text" name="answer" placeholder="Type your answer in the form of a question..."/>
+      <input type="button" value="Answer" name="answerButton" id="answerButton">
+      <a href="#"><input type="button" value="Pass" name="passButton" id="passButton"></a>
+    </section>
+  </div>
+  <!-- Scoreboard for both player -->
+  <footer>
+    <div id="filler"></div>
+    <div id="scoreboard">
+      <h3 id="player1" class="players">
+        Player One: 0
+      </h3>
+      <h3 id="player2" class="players">
+        Player Two: 0
+      </h3>
+    </div>
+    <!-- Link to next round -->
+    <a id="finalJeopardyLink" href="round-2.html"><h1>Double Jeopardy! -> </h1></a>
+  </footer>
 </body>
+<script src="/scripts/elements.js"></script>
+<script src="/scripts/questions.js"></script>
+<script src="/scripts/round-2.js"></script>
 </html>

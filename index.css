@@ -1,0 +1,622 @@
+#numberOfPlayerButtons {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 0%);
+  z-index: 6;
+}
+
+/* 'Click here to begin' stylings */
+.banner {
+  display: inline-block;
+  color: ivory;
+  padding: 1.5em;
+  width: 30vw;
+  box-shadow: 6px 0px #cccccc;
+  border: none;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: bannerColor;
+  animation-duration: 5s;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#startGame {
+  display: none;
+  position: absolute;
+  color: ivory;
+  padding: 1.5em;
+  width: 30vw;
+  box-shadow: 6px 0px #cccccc;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: bannerColor;
+  animation-duration: 5s;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#onePlayer,
+#twoPlayer {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Each questions individual animations characteristics */
+#q1 {
+  animation-name: q1;
+  animation-duration: 3s;
+}
+
+#q2 {
+  animation-name: q2;
+  animation-duration: 2s;
+}
+
+#q3 {
+  animation-name: q3;
+  animation-duration: 2.5s;
+}
+
+#q4 {
+  animation-name: q4;
+  animation-duration: 1.5s;
+}
+
+#q5 {
+  animation-name: q5;
+  animation-duration: 3s;
+}
+
+#q6 {
+  animation-name: q6;
+  animation-duration: 1.75s;
+}
+
+#q7 {
+  animation-name: q7;
+  animation-duration: 2.75s;
+}
+
+#q8 {
+  animation-name: q8;
+  animation-duration: 3s;
+}
+
+#q9 {
+  animation-name: q9;
+  animation-duration: 2.5s;
+}
+
+#q10 {
+  animation-name: q10;
+  animation-duration: 1.75s;
+}
+
+#q11 {
+  animation-name: q11;
+  animation-duration: 2.75s;
+}
+
+#q12 {
+  animation-name: q12;
+  animation-duration: 2.25s;
+}
+
+#q13 {
+  animation-name: q13;
+  animation-duration: 1.5s;
+}
+
+#q14 {
+  animation-name: q14;
+  animation-duration: 2.25s;
+}
+
+#q15 {
+  animation-name: q15;
+  animation-duration: 2s;
+}
+
+#q16 {
+  animation-name: q16;
+  animation-duration: 3s;
+}
+
+#q17 {
+  animation-name: q17;
+  animation-duration: 1.5s;
+}
+
+#q18 {
+  animation-name: q18;
+  animation-duration: 2.25s;
+}
+
+#q19 {
+  animation-name: q19;
+  animation-duration: 3s;
+}
+
+#q20 {
+  animation-name: q20;
+  animation-duration: 1.75s;
+}
+
+#q21 {
+  animation-name: q21;
+  animation-duration: 2.75s;
+}
+
+#q22 {
+  animation-name: q22;
+  animation-duration: 3s;
+}
+
+#q23 {
+  animation-name: q23;
+  animation-duration: 1.5s;
+}
+
+#q24 {
+  animation-name: q24;
+  animation-duration: 1.75s;
+}
+
+#q25 {
+  animation-name: q25;
+  animation-duration: 2s;
+}
+
+#q26 {
+  animation-name: q26;
+  animation-duration: 2.75s;
+}
+
+#q27 {
+  animation-name: q27;
+  animation-duration: 3s;
+}
+
+#q28 {
+  animation-name: q28;
+  animation-duration: 2s;
+}
+
+#q29 {
+  animation-name: q29;
+  animation-duration: 2.5s;
+}
+
+#q30 {
+  animation-name: q30;
+  animation-duration: 2.75s;
+}
+
+#q31 {
+  animation-name: q31;
+  animation-duration: 2s;
+}
+
+#q32 {
+  animation-name: q32;
+  animation-duration: 1.75s;
+}
+
+#q33 {
+  animation-name: q33;
+  animation-duration: 2.75s;
+}
+
+#q34 {
+  animation-name: q34;
+  animation-duration: 2s;
+}
+
+#q35 {
+  animation-name: q35;
+  animation-duration: 2.5s;
+}
+
+#q36 {
+  animation-name: q36;
+  animation-duration: 2.75s;
+}
+
+/* Each questions individual animation */
+@keyframes q1 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q2 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color3);
+  }
+}
+
+@keyframes q3 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q4 {
+  0% {
+    background-color: var(--color5);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q5 {
+  0% {
+    background-color: var(--color6);
+  }
+
+  100% {
+    background-color: var(--color5);
+  }
+}
+
+@keyframes q6 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes q7 {
+  0% {
+    background-color: var(--color6);
+  }
+
+  100% {
+    background-color: var(--color5);
+  }
+}
+
+@keyframes q8 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color3);
+  }
+}
+
+@keyframes q9 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}
+
+@keyframes q10 {
+  0% {
+    background-color: var(--color6);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes q11 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color5);
+  }
+}
+
+@keyframes q12 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}
+
+@keyframes q13 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q14 {
+  0% {
+    background-color: var(--color6);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q15 {
+  0% {
+    background-color: var(--color5);
+  }
+
+  100% {
+    background-color: var(--color3);
+  }
+}
+
+@keyframes q16 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q17 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q18 {
+  0% {
+    background-color: var(--color3);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes q19 {
+  0% {
+    background-color: var(--color3);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q20 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color5);
+  }
+}
+
+@keyframes q21 {
+  0% {
+    background-color: var(--color3);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}
+
+@keyframes q22 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q23 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q24 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color3);
+  }
+}
+
+@keyframes q25 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}
+
+@keyframes q26 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes q27 {
+  0% {
+    background-color: var(--color4);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q28 {
+  0% {
+    background-color: var(--color3);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}
+
+@keyframes q29 {
+  0% {
+    background-color: var(--color5);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q30 {
+  0% {
+    background-color: var(--color6);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes q31 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color3);
+  }
+}
+
+@keyframes q32 {
+  0% {
+    background-color: var(--color3);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q33 {
+  0% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color5);
+  }
+}
+
+@keyframes q34 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color2);
+  }
+}
+
+@keyframes q35 {
+  0% {
+    background-color: var(--color1);
+  }
+
+  100% {
+    background-color: var(--color6);
+  }
+}
+
+@keyframes q36 {
+  0% {
+    background-color: var(--color5);
+  }
+
+  100% {
+    background-color: var(--color4);
+  }
+}
+
+@keyframes bannerColor {
+  0% {
+    background-color: var(--color6);
+  }
+
+  20% {
+    background-color: var(--color5);
+  }
+
+  40% {
+    background-color: var(--color4);
+  }
+
+  60% {
+    background-color: var(--color3);
+  }
+
+  80% {
+    background-color: var(--color2);
+  }
+
+  100% {
+    background-color: var(--color1);
+  }
+}

@@ -1,0 +1,430 @@
+[
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?",
+    "correct_answer": "Ed Sheeran - I See Fire",
+    "incorrect_answers": [
+      "Marvin Gaye - Sexual Healing",
+      "Coldplay - Midnight",
+      "a-ha - Take On Me"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "According to the BBPA, what is the most common pub name in the UK?",
+    "correct_answer": "Red Lion",
+    "incorrect_answers": ["Royal Oak", "White Hart", "King&#039;s Head"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In a standard set of playing cards, which is the only king without a moustache?",
+    "correct_answer": "Hearts",
+    "incorrect_answers": ["Spades", "Diamonds", "Clubs"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Area 51 is located in which US state?",
+    "correct_answer": "Nevada",
+    "incorrect_answers": ["Arizona", "New Mexico", "Utah"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the airspeed velocity of an unladen swallow?",
+    "correct_answer": "24 MPH",
+    "incorrect_answers": ["15 MPH", "20 MPH", "200 MPH"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What alcoholic drink is made from molasses?",
+    "correct_answer": "Rum",
+    "incorrect_answers": ["Gin", "Vodka", "Whisky"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which essential condiment is also known as Japanese horseradish?",
+    "correct_answer": "Wasabi ",
+    "incorrect_answers": ["Mentsuyu", "Karashi", "Ponzu"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is &quot;dabbing&quot;?",
+    "correct_answer": "A dance",
+    "incorrect_answers": ["A medical procedure", "A sport", "A language"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the shape of the toy invented by Hungarian professor Ern\u0151 Rubik?",
+    "correct_answer": "Cube",
+    "incorrect_answers": ["Sphere", "Cylinder", "Pyramid"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "When was &quot;YouTube&quot; founded?",
+    "correct_answer": "February 14, 2005",
+    "incorrect_answers": ["May 22, 2004", "September 12, 2005", "July 19, 2009"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "It is automatically considered entrapment in the United States if the police sell you illegal substances without revealing themselves.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The word &quot;news&quot; originates from the first letters of the 4 main directions on a compass (North, East, West, South).",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which of the following chemicals are found in eggplant seeds?",
+    "correct_answer": "Nicotine",
+    "incorrect_answers": ["Mescaline", "Cyanide", "Psilocybin"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the unit of currency in Laos?",
+    "correct_answer": "Kip",
+    "incorrect_answers": ["Ruble", "Konra", "Dollar"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of the following buildings is example of a structure primarily built in the Art Deco architectural style?",
+    "correct_answer": "Niagara Mohawk Building",
+    "incorrect_answers": [
+      "Taipei 101",
+      "One Detroit Center",
+      "Westendstrasse 1"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+    "correct_answer": "Spruce Goose",
+    "incorrect_answers": ["Noah&#039;s Ark", "Fat Man", "Trojan Horse"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the German word for &quot;spoon&quot;?",
+    "correct_answer": "L&ouml;ffel",
+    "incorrect_answers": ["Gabel", "Messer", "Essst&auml;bchen"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the Spanish word for &quot;donkey&quot;?",
+    "correct_answer": "Burro",
+    "incorrect_answers": ["Caballo", "Toro", "Perro"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the French word for &quot;hat&quot;?",
+    "correct_answer": "Chapeau",
+    "incorrect_answers": ["Bonnet", " &Eacute;charpe", " Casque"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the romanized Russian word for &quot;winter&quot;?",
+    "correct_answer": "Zima",
+    "incorrect_answers": ["Leto", "Vesna", "Osen&#039;"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "On average, at least 1 person is killed by a drunk driver in the United States every hour.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Pluto is a planet.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Adolf Hitler was born in Australia. ",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Fast food restaurant chains Carl&#039;s Jr. and Hardee&#039;s are owned by the same company.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "When was Hubba Bubba first introduced?",
+    "correct_answer": "1979",
+    "incorrect_answers": ["1984", "1972", "1980"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which restaurant&#039;s mascot is a clown?",
+    "correct_answer": "McDonald&#039;s",
+    "incorrect_answers": ["Whataburger", "Burger King", "Sonic"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What was the soft drink Pepsi originally introduced as?",
+    "correct_answer": "Brad&#039;s Drink",
+    "incorrect_answers": ["Pepsin Pop", "Carolina Cola", "Pepsin Syrup"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What year was the RoboSapien toy robot released?",
+    "correct_answer": "2004",
+    "incorrect_answers": ["2000", "2001", "2006"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Where does water from Poland Spring water bottles come from?",
+    "correct_answer": "Maine, United States",
+    "incorrect_answers": [
+      "Hesse, Germany",
+      "Masovia, Poland",
+      "Bavaria, Poland"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+    "correct_answer": "28%",
+    "incorrect_answers": ["13%", "20%", "7%"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What was Bank of America originally established as?",
+    "correct_answer": "Bank of Italy",
+    "incorrect_answers": [
+      "Bank of Long Island",
+      "Bank of Pennsylvania",
+      "Bank of Charlotte"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
+    "correct_answer": "Pancreatic",
+    "incorrect_answers": ["Bone", "Liver", "Stomach"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Virtual reality company Oculus VR lost which of it&#039;s co-founders in a freak car accident in 2013?",
+    "correct_answer": "Andrew Scott Reisse",
+    "incorrect_answers": ["Nate Mitchell", "Jack McCauley", "Palmer Luckey"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is real haggis made of?",
+    "correct_answer": "Sheep&#039;s Heart, Liver and Lungs",
+    "incorrect_answers": [
+      "Sheep&#039;s Heart, Kidneys and Lungs",
+      "Sheep&#039;s Liver, Kidneys and Eyes",
+      "Whole Sheep"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Scotland voted to become an independent country during the referendum from September 2014.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Whose greyscale face is on the kappa emoticon on Twitch?",
+    "correct_answer": "Josh DeSeno",
+    "incorrect_answers": ["Justin DeSeno", "John DeSeno", "Jimmy DeSeno"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country drives on the left side of the road?",
+    "correct_answer": "Japan",
+    "incorrect_answers": ["Germany", "Russia", "China"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following is the IATA code for Manchester Airport?",
+    "correct_answer": "MAN",
+    "incorrect_answers": ["EGLL", "LHR", "EGCC"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country has the most Trappist breweries?",
+    "correct_answer": "Belgium",
+    "incorrect_answers": ["Netherlands", "France", "USA"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the Zodiac symbol for Gemini?",
+    "correct_answer": "Twins",
+    "incorrect_answers": ["Fish", "Scales", "Maiden"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is Cynophobia the fear of?",
+    "correct_answer": "Dogs",
+    "incorrect_answers": ["Birds", "Flying", "Germs"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many furlongs are there in a mile?",
+    "correct_answer": "Eight",
+    "incorrect_answers": ["Two", "Four", "Six"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+    "correct_answer": "35 Pounds",
+    "incorrect_answers": ["30 Pounds", "40 Pounds", "32.50 Pounds"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko&#039;s critical percentage rate?",
+    "correct_answer": "15%",
+    "incorrect_answers": ["20%", "10%", "25%"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the most commonly used noun in the English language?",
+    "correct_answer": "Time",
+    "incorrect_answers": ["Home", "Water", "Man"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "The word &quot;astasia&quot; means which of the following?",
+    "correct_answer": "The inability to stand up",
+    "incorrect_answers": [
+      "The inability to make decisions",
+      "The inability to concentrate on anything",
+      "A feverish desire to rip one&#039;s clothes off"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which of these cities does NOT have a United States Minting location?",
+    "correct_answer": "St. Louis, MO",
+    "incorrect_answers": [
+      "San Fransisco, CA",
+      "Philidelphia, PA",
+      "West Point, NY"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following is not the host of a program on NPR?",
+    "correct_answer": "Ben Shapiro",
+    "incorrect_answers": ["Terry Gross", "Ira Glass", "Peter Sagal"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The Mexican Beer &quot;Corona&quot; is what type of beer?",
+    "correct_answer": "Pale Lager",
+    "incorrect_answers": ["India Pale Ale", "Pilfsner", "Baltic Porter"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the French word for &quot;fish&quot;?",
+    "correct_answer": "poisson",
+    "incorrect_answers": ["fiche", "escargot", "mer"]
+  }
+]
